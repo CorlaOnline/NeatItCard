@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NearItCard_Example' do
+  pod 'NearItCard', :path => '../'
+
+  target 'NearItCard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
