@@ -1,0 +1,16 @@
+PODS:
+  - NearItCard (0.1.0)
+
+DEPENDENCIES:
+  - NearItCard (from `../`)
+
+EXTERNAL SOURCES:
+  NearItCard:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NearItCard: 9182c3105e1b63b30b67bee375ae4fef61c2eec6
+
+PODFILE CHECKSUM: 6d8cc936721c4feed6104f4aa55d99881145e3c3
+
+COCOAPODS: 1.0.1

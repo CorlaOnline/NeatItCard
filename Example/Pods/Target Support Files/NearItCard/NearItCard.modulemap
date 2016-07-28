@@ -1,0 +1,6 @@
+framework module NearItCard {
+  umbrella header "NearItCard-umbrella.h"
+
+  export *
+  module * { export * }
+}

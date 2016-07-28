@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alex Corlatti' => 'alex.corlatti@gmail.com' }
   s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/NearItCard.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/CorlaOnline'
 
   s.ios.deployment_target = '8.0'
 
@@ -39,4 +39,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+s.dependency 'NMSDK', :git => 'https://github.com/nearit/nm.sdk', :branch => 'develop'
+s.dependency 'NMJSON', :git => 'https://github.com/nearit/nm.json', :branch => 'develop'
+s.dependency 'NMCache', :git => 'https://github.com/nearit/nm.cache', :branch => 'develop'
+s.dependency 'NMNet', :git => 'https://github.com/nearit/nm.net', :branch => 'develop'
+s.dependency 'youtube-ios-player-helper', '~> 0.1'
 end
